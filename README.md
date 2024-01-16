@@ -1,7 +1,7 @@
 # CUDA Rejection-free Simulated Annealing
 
 A CUDA implementation of rejection-free simulated annealing.
-The algorithm is implemented close to the [python version](https://github.com/MichelKrispin/rf-simulated-annealing) and is therefore a starting point for further optimizations.
+The algorithm is implemented close to the [python version](https://github.com/MichelKrispin/rf-simulated-annealing) and is therefore only a starting point for further optimizations.
 Currently, the QUBO size is limited by the number of parallel threads that the GPU allows (1024 in my case).
 
 [CUDA](https://developer.nvidia.com/cuda-downloads) must be installed to run the project.
